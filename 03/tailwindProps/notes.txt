@@ -1,0 +1,24 @@
+-> PROPS: 
+    Props is a special keyword in React that stands for properties and is used for passing data from one component to another. Data with props are passed in a unidirectional flow from parent to child.
+
+
+Example: 
+import React from 'react';
+
+function Welcome(props) {
+  return <h1>Hello, {props.name}!</h1>;
+}
+
+function App() {
+  return (
+    <div>
+      <Welcome name="Alice" /> 
+      <Welcome name="Bob" /> 
+    </div>
+  );
+}
+
+1.App is the parent component.
+2.Welcome is the child component.
+3.name is a prop passed from App to Welcome.
+4.Welcome uses the name prop to display a personalized greeting.
