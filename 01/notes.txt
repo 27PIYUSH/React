@@ -1,0 +1,21 @@
+1. npx create-react-app  --> installation and set up react app  --> npx = node package executer  $  create-react-app = utility
+2. npm run start  --> start the app 
+3. npm run build  --> build the app --> convert into js code
+4. whenever you create component --> 1. both .jsx extension and .js are applicable (generally agr html return hora h toh jsx rkhte h)
+                                 --> 2. Function name must be capital
+                                 --> 3. export the component ( you can export only a single component thus we trick it by enclosing everything into a single div <></>)
+                                 --> <></> known as fragment
+
+1. vite --> react bundler
+2. npm create vite@latest  --> select 
+3. npm install / npm i  --> install the packages - (node modules)
+4. npm run dev --> run project
+5. whenever you create component --> 1. name with .jsx extension not with .js
+                                 --> 2. Function name must be capital
+                                 --> 3. export the component ( you can export only a single component thus we trick it by enclosing everything into a single div <></>)
+                                 --> <></> known as fragment
+
+
+
+Imp:-
+Babel - it transpiles the jsx code.
