@@ -1,0 +1,20 @@
+React router dom --> 
+    React Router DOM is a popular library in the React ecosystem that enables routing and navigation in React applications. It allows you to build single-page applications (SPAs) where users can navigate between different views or pages without refreshing the browser.
+
+    Key Features of React Router DOM:
+    
+    1.Routing:
+        1)Define different routes (URLs) and associate them with specific components.
+        2)Dynamically render components based on the current URL.
+    
+    2.Declarative Navigation:
+        1)Use components like Link and NavLink to navigate between routes without a page reload.
+    
+    3.Dynamic Routing:
+        1)Pass parameters through URLs to dynamically load data or render components (e.g., /product/:id).
+    
+    4.Nested Routes:
+        1)Create complex routing hierarchies, allowing parent-child relationships between routes.
+    
+    5.Programmatic Navigation:
+        1)Use functions like useNavigate to navigate programmatically in response to user actions.
